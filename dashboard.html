@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Hospital Dashboard</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h2>Hospital Dashboard</h2>
+
+  <div>
+    <h3>Staff</h3>
+    <input id="staffInput" placeholder="Add staff">
+    <button onclick="addItem('staff')">Add</button>
+    <ul id="staffList"></ul>
+  </div>
+
+  <div>
+    <h3>Reception</h3>
+    <input id="recInput" placeholder="Add appointment">
+    <button onclick="addItem('reception')">Add</button>
+    <ul id="recList"></ul>
+  </div>
+
+  <div>
+    <h3>Pharmacy</h3>
+    <input id="phInput" placeholder="Add medicine">
+    <button onclick="addItem('pharmacy')">Add</button>
+    <ul id="phList"></ul>
+  </div>
+
+  <div>
+    <h3>Billing</h3>
+    <input id="billInput" placeholder="Add bill">
+    <button onclick="addItem('billing')">Add</button>
+    <ul id="billList"></ul>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
