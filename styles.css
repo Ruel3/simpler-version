@@ -1,0 +1,4 @@
+body { font-family: Arial; margin: 20px; }
+.card { max-width: 300px; margin: auto; padding: 20px; border: 1px solid #ccc; }
+input { margin: 5px; padding: 5px; }
+button { padding: 5px 10px; }
